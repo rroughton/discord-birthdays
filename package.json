@@ -1,0 +1,29 @@
+{
+  "name": "discord-birthdays",
+  "version": "1.0.0",
+  "description": "Discord bot that takes in a list of users and their birthdays and gives a note when it's that day.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint . --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rroughton/discord-birthdays.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rroughton/discord-birthdays/issues"
+  },
+  "homepage": "https://github.com/rroughton/discord-birthdays#readme",
+  "dependencies": {
+    "discord.js": "^14.1.2",
+    "typescript": "^4.7.4"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.32.0",
+    "@typescript-eslint/parser": "^5.32.0",
+    "eslint": "^8.21.0"
+  }
+}
